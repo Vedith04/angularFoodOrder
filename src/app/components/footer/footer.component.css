@@ -1,0 +1,22 @@
+.footer{
+    position: sticky;
+    top:100%;
+    background-color: black;
+    padding: 16px 8px;
+    overflow: hidden;
+}
+.left-text{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+a:hover{
+    color: var(--primary-color);
+}
+i{
+    padding: 0px 10px;
+}

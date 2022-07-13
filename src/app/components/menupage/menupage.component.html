@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6" *ngIf="foodItem">
+            <div class="food">
+                <img src={{foodItem.foodImg}} alt="">
+                <h1>{{foodItem.foodName}}</h1>
+                <p>{{foodItem.foodDetails}}</p>
+                <p>{{foodItem.foodPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h1 class="form-txt">Enter your details</h1>
+            <form>
+                <input type="text" name="name" class="form-control mb-3" placeholder="Enter your Full Name">
+                <input type="text" name="mobile" class="form-control mb-3" placeholder="Enter your Mobile">
+                <textarea type="text" style="resize: none;" name="address" class="form-control mb-3" rows="3" placeholder="Enter your Address"></textarea>
+                <button class="btn btn-md btn-dark">Place Order</button>
+            </form>
+        </div>
+    </div>
+</div>
+ 

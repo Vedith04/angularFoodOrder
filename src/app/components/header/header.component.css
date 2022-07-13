@@ -1,0 +1,8 @@
+.nav-link{
+    color:var(--secondary-color);
+}
+.active-link{
+    color:var(--primary-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
